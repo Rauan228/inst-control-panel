@@ -1,0 +1,4 @@
+# готовые адреса вместо catch-all (по одному на строку)
+# строки, начинающиеся с #, игнорируются
+# ig.user1@yourdomain.com
+# ig.user2@yourdomain.com

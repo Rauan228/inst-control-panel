@@ -1,0 +1,9 @@
+<!doctype html><html><body>
+<button>Change profile photo</button>
+<input type="file" style="display:none">
+<button>Done</button>
+<script>
+  document.querySelectorAll('button')[0].onclick = () =>
+    document.querySelector('input[type=file]').click();
+  document.querySelector('input[type=file]').onchange = () => { document.title = 'AVATAR_SET'; };
+</script></body></html>

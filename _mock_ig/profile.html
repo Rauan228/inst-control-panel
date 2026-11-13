@@ -1,0 +1,9 @@
+<!doctype html><html><body>
+<div role="button">Follow</div>
+<button>Not now</button>
+<script>
+  document.querySelector('div[role=button]').onclick = () => {
+    document.title = 'FOLLOWED';
+    document.querySelector('div[role=button]').textContent = 'Following';
+  };
+</script></body></html>
